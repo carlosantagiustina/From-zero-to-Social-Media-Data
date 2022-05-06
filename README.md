@@ -6,4 +6,4 @@ TWITTER_DEV_BEARER credentials had been previously stored in a secure way using 
 
 key_set_with_value(service = "TWITTER_DEV_BEARER", password = "YOUR_BEARER_TOKEN_GOES_HERE")
 
-contaacts: carlo.santagiustina@unive.it
+contacts: carlo.santagiustina@unive.it
