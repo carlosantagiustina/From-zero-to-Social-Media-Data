@@ -25,8 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 #Authentication
 #credentials had been previusly stored in a secure way using the following keyring command
 #key_set_with_value(service = "TWITTER_DEV_BEARER",password = "MY_BEARER_TOKEN")
-#dev_app = rtweet::rtweet_app(bearer_token = keyring::key_get("TWITTER_DEV_BEARER"))
-dev_app = rtweet::rtweet_app(bearer_token = keyring::key_get("TWITTER_AC_BEARER"))
+dev_app = rtweet::rtweet_app(bearer_token = keyring::key_get("TWITTER_DEV_BEARER"))
 rtweet::auth_as(dev_app)
 ```
 
